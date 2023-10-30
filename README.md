@@ -24,6 +24,11 @@ Das Idealgewicht wird anhand folgender Formeln berechnet:
 3. Wähle aus, ob du einen breiten oder schmalen Körperbau hast.
 6. Klicke auf den Berechnen-Button, um die Ergebnisse anzeigen zu lassen.
 
+## Tools/Technologien
+- HTML
+- CSS
+- JavaScript
+
 ## Screenshots
 
 ![PAP - Flowchart für den Idealgewichtsrechner](./assets/images/screenshot_flowchart_idealgewichtsrechner.jpg)
