@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* ========================================================== 
+                            Fonts
+========================================================== */
+
+@font-face {
+	font-family: "Lato";
+	src: url("./../fonts/Lato-Regular.ttf");
+}
+
+/* ========================================================== 
+                        Body und Wrapper
+========================================================== */
+
+body {
+	font-family: "Lato";
+	background-color: #0d1117;
+	scroll-behavior: smooth;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	width: clamp(300px, 50%, 400px);
+	margin: 0 auto;
+	border-radius: 10px;
+	background: linear-gradient(white, #8cb1db);
+}
+
+.idealweight__calculator__wrapper {
+	padding: 20px;
+}
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+h1 {
+	font-size: 1.75rem;
+	padding-block-end: 20px;
+}
+
+label {
+	font-weight: 600;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+input {
+	font-weight: 600;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+input[type="number"] {
+	border-radius: 4px;
+	position: relative;
+	outline: none;
+	background: url('./../images/number_arrows.svg') center right / contain no-repeat;
+	caret-color: #2d7fdd;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+	-moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	appearance: none !important;
+	opacity: 1 !important;
+	background: transparent !important;
+	border-width: 0px;
+	margin: 0;
+	border-left: 2px solid #2d7fdd;
+	height: 40px;
+	width: 17px;
+	cursor: pointer;
+}
+
+div.radio {
+	display: flex;
+	padding-block: 15px;
+	margin-bottom: 10px;
+}
+
+div.radio label {
+	padding-inline: 10px;
+	padding-block: 5px;
+}
+
+
+input:not(input[type="radio"]) {
+	padding: 10px;
+	margin-bottom: 25px;
+	border: 2px solid #2d7fdd;
+	width: 100%;
+	background-color: #f4ebfc;
+}
+
+input[type="radio"] {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 30px;
+	height: 30px;
+	background: url("./../images/radio_unchecked.png") center / contain
+		no-repeat;
+	border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+	background: url("./../images/radio_checked.png") center / contain no-repeat;
+}
+
+div input[type="submit"] {
+	padding: 15px;
+	background: #2d7fdd;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 10px 0 20px 0;
+	cursor: pointer;
+}
+
+.output {
+	display: none;
+	color: white;
+	background-color: #2d7fdd;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1rem;
+}

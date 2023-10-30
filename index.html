@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Vertiefung – Project Kalorien-Rechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="idealweight__calculator__wrapper">
+            <h1>Idealgewichtsrechner</h1>
+            <form>
+                <div>
+                    <label for="height">Körpergröße in cm</label>
+                    <input type="number" id="height" name="height" min="1" value="0">
+                </div>
+                <div>
+                    <label for="age">Alter in Jahren</label>
+                    <input type="number" id="age" name="age" min="1" value="0">
+                </div>
+                <label>Körperbau</label>
+                <div class="radio">
+                    <input type="radio" id="wide" name="physique" value="wide" checked>
+                    <label for="wide"> Breite</label>
+                    <input type="radio" id="slim" name="physique" value="slim">
+                    <label for="slim"> Schmale</label>
+                </div>
+                <div class="calc"><input type="submit" value="Berechnen" id="btnCalc"></div>
+            </form>
+            <div class="output" id="output">
+                <p></p>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
