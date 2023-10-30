@@ -52,7 +52,7 @@ btnCalc.addEventListener("click", (event) => {
 	event.preventDefault();
 
 	const output = document.querySelector('#output');
-
+	// Error-Handling
 	if (idealWeight() === false ) {
 		output.style.display = 'block';
 		output.textContent = 'Bitte füllen Sie alle Felder aus!';

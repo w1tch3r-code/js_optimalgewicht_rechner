@@ -16,28 +16,33 @@ Das Idealgewicht wird anhand folgender Formeln berechnet:
 - Formel für Menschen mit einem eher breiten Körperbau:
 [(Körpergröße in cm - 100) + (Alter/ 10)] x 0,9 x 1,1
 
-
 ## Funktionsweise
 
 1. Gib deine Körpergröße in cm an.
 2. Gib dein Alter in Jahren an.
 3. Wähle aus, ob du einen breiten oder schmalen Körperbau hast.
-6. Klicke auf den Berechnen-Button, um die Ergebnisse anzeigen zu lassen.
+4. Klicke auf den Berechnen-Button, um die Ergebnisse anzeigen zu lassen.
 
 ## Tools/Technologien
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
 ## Screenshots
 
+### PAP - Flowchart für den Idealgewichtsrechner
 ![PAP - Flowchart für den Idealgewichtsrechner](./assets/images/screenshot_flowchart_idealgewichtsrechner.jpg)
 
-![Idealgewicht von einer Person mit schmalerem Körperbau](./assets/images/screenshot_idealgewichtsrechner.jpg)
+### Idealgewicht-Berechnung einer Person mit schmalerem Körperbau
+![Idealgewicht-Berechnung einer Person mit schmalerem Körperbau](./assets/images/screenshot_idealgewichtsrechner.jpg)
+
+## GitHub Live Vorschau
+
+Du findest eine Live Vorschau auf GitHub: [GitHub Live Vorschau](https://w1tch3r-code.github.io/js_optimalgewicht_rechner/)
 
 ## GitHub Repository
 
-Du findest das gesamte Projekt auf GitHub: [GitHub Repository](https://w1tch3r-code.github.io/js_optimalgewicht_rechner/)
+Du findest das gesamte Projekt auf GitHub: [GitHub Repository](https://github.com/w1tch3r-code/js_optimalgewicht_rechner)
 
 ## Anmerkungen
 
