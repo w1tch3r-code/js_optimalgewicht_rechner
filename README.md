@@ -4,12 +4,13 @@
 
 Dieses JavaScript-Projekt wurde im Rahmen eines Coding-Bootcamps bei supercode.de erstellt. Es handelt sich um einen Idealgewichts-Rechner, der es ermöglicht, das Optimalgewicht, abhängig vom jeweiligen Körperbau des Users, zu berechen.
 
-Die Anwendung bietet die Möglichkeit, die folgenden Berechnungen durchzuführen:
+### Die Anwendung bietet die Möglichkeit, die folgenden Berechnungen durchzuführen:
 
 - Idealgewicht für einen breiten Körperbau
 - Idealgewicht für einen zierlichen und schmalen Körperbau
 
-Das Idealgewicht wird anhand folgender Formeln berechnet:
+### Das Idealgewicht wird anhand folgender Formeln berechnet:
+
 - Formel für Menschen mit einem zierlichen und schmalen Körperbau:
 [(Körpergröße in cm - 100) + (Alter/ 10)] x 0,9 x 0,9
 
